@@ -35,7 +35,7 @@ public class Collection_ArrayList {
         System.out.println(arrayList1.contains(17)); // It will return true as 17 is present in arrayList1
         System.out.println(arrayList1.indexOf(17)); // It will return the index value of 17. If 17 is not present in array list then it will return -1
         System.out.println(arrayList1.lastIndexOf(17)); // It will return the last index where 17 is present
-        System.out.println(arrayList1.set(2, 437)); // It will replace the 2nd index value with 437
+        System.out.println(arrayList1.set(2, 437)); // It will replace the 2nd index value with 437, and will return the element that was present at that index before replacing
         for(int i = 0; i < arrayList1.size(); i++) { // Accessing all elements of the array list
             System.out.print(arrayList1.get(i));
             System.out.print(", ");
